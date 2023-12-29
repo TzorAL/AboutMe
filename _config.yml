@@ -1,7 +1,10 @@
 title: Alexandros Tzortzis # your name (or website title) here
 logo: "/images/logo.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Description
+  Alexandros Menelaos Tzortzis holds a degree in electrical and computer engineering from University of Thessaly. 
+  At present, he is pursuing his PhD and concurrently serving as a researcher at the Decision Support Systems Laboratory - NTUA. 
+  His research primarily focuses on the utilization of machine learning and deep learning methodologies for power grid time series forecasting, 
+  with a strong emphasis on EU-funded research and innovation projects.
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
