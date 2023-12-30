@@ -18,14 +18,14 @@
 
 We investigate the performance of a special case of STLF, namely transfer learning (TL), by considering a set of 27 time series that represent the national day-ahead electricity demand of indicative European countries. We employ a feed-forward NN model using Pytorch Lightning and perform a clustering analysis to identify similar patterns among the load series and enhance TL. In this context, two different TL approaches, with and without the clustering step, are compiled and compared against each other as well as a typical NN training setup. Our results demonstrate that TL can outperform the conventional approach, especially when clustering techniques are considered.
 
-![transfer-learning-forecasting](images/transfer-learning-forecasting.png)
+![transfer-learning-forecasting](images/projects/transfer-learning-forecasting.png)
 
 #### AI4EF @ Enershare
 [Publication](https://epu-ntua.github.io/enershare-ai4ef/)
 
 The aim of the service is to provide a solid methodological framework for assessing renovation actions in residential buildings. This service consists of two ML models for implementing two different tasks related to the domain of building retrofitting and energy autonomy in the residential scale. The first model is tailored for assessing specific actions in building level, while the second model aims at assessing the potential of installing rooftop solar panels in residential buildings. A backend is implemented with a combination of fastAPI/postgREST, employing RESTful APIs to establish communication between models and frontend/database respectively. 
 
-![enershare-ai4ef](/images/ai4ef_flowchart.png)
+![enershare-ai4ef](/images/projects/ai4ef_flowchart.png)
 
 
 ## Publications
