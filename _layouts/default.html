@@ -7,8 +7,29 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      
       gtag('config', '{{ site.google_analytics }}');
+     /* Apply styles to the container div to stack icons vertically */
+        .icon-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .icon-container a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .icon-container img {
+            height: 30px;
+            width: 30px;
+            margin-right: 10px;
+        }
    </script>
    {% endif %}
    <meta charset="UTF-8">
@@ -28,35 +49,29 @@
          <img src="{{site.logo | relative_url}}" alt="Logo" />
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
+         <div class="icon-container">
             <!-- Github -->
             <a href="https://github.com/TzorAL" style="text-decoration: none; color: black;">
-              <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/github.svg" alt="GitHub" style="height: 30px; width: 30px;">
+               <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/github.svg" alt="GitHub" style="height: 30px; width: 30px;">
+               <span>GitHub</span>
+            </a>
+
+            <!-- OrcID -->
+            <a href="https://orcid.org/0009-0002-5020-4485" style="text-decoration: none; color: black;">
+					<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/orcid.svg" alt="OrcID" style="height: 30px; width: 30px;">
+            </a>
+            
+            <!--  Mail -->
+            <a href="mailto:tzortzisalex99@gmail.com">
+              <!-- Replace "mail-logo.png" with the path to your mail logo image -->
+					<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/mail.svg" alt="Mail" style="height: 30px; width: 30px;">
             </a>
          
-           <!-- LinkedIn -->
-<!--            <a href="https://www.linkedin.com/in/your-linkedin-profile" style="text-decoration: none; color: black;">
-             <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/linkedin.svg" alt="LinkedIn" style="height: 30px;">
-           </a> -->
-         
-           <!-- OrcID -->
-           <a href="https://orcid.org/0009-0002-5020-4485" style="text-decoration: none; color: black;">
-             <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/orcid.svg" alt="OrcID" style="height: 30px; width: 30px;">
-           </a>
-         
-           <!--  Mail -->
-           <a href="mailto:tzortzisalex99@gmail.com">
-              <!-- Replace "mail-logo.png" with the path to your mail logo image -->
-              <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/mail.svg" alt="Mail" style="height: 30px; width: 30px;">
-          </a>
-         
-           <!-- Twitter -->
+           <!-- Phone -->
 <!--            <a href="https://twitter.com/your-twitter-handle" style="text-decoration: none; color: black;">
              <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/twitter.svg" alt="Twitter" style="height: 30px;">
            </a> -->
-<!--             <a href="https://github.com/TzorAL" style="display: flex; align-items: center; text-decoration: none; color: black;">
-             <img src="https://raw.githubusercontent.com/TzorAL/quick-portfolio/master/images/github.svg" alt='GitHub' style="height: 30px;">
-             <span>GitHub</span>
-           </a> -->
+			</div>
 <!--          {% if site.github.is_project_page %}
          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
          {% endif %}
