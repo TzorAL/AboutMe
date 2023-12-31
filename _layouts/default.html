@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   {% seo %}
+   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
    <style>
      /* Apply styles to the container div to stack icons vertically */
         .icon-container {
@@ -25,11 +30,6 @@
             margin-right: 10px;
         }
    </style>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   {% seo %}
-   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
    <div class="wrapper">
@@ -48,11 +48,12 @@
             <!-- OrcID -->
             <a href="https://orcid.org/0009-0002-5020-4485" style="text-decoration: none; color: black;">
 		<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/orcid.svg" alt="OrcID" style="height: 30px; width: 30px;">
+         	<span>0009-0002-5020-4485</span>
             </a>
             <!--  Mail -->
             <a href="mailto:tzortzisalex99@gmail.com">
-              <!-- Replace "mail-logo.png" with the path to your mail logo image -->
 		<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/mail.svg" alt="Mail" style="height: 30px; width: 30px;">
+		<span>tzortzisalex99@gmail.com</span>
             </a>
            <!-- Phone -->
 <!--            <a href="https://twitter.com/your-twitter-handle" style="text-decoration: none; color: black;">
