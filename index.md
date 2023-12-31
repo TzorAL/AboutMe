@@ -6,7 +6,7 @@
 
 ## Education 
 - Ph.D. Student, Electrical and Computer Engineering | National Tecnical University of Athens (_2023 - present_) 
-- M.Sc.	Electrical & Computer Engineering | University of Thessaly (_2017 - 2023_) 
+- M.Sc.	Electrical & Computer Engineering | University of Thessaly (_2013 - 2024_) 
 - B.Sc. Electrical & Computer Engineering | University of Thessaly (_2017 - 2023_) 
 
 ## Work Experience
