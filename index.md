@@ -5,9 +5,13 @@
  - Tools: Docker, Kubernetes, Git/Github
 
 ## Education 
-- Ph.D. Student, Electrical and Computer Engineering | National Tecnical University of Athens (_2023 - present_)
-- M.Sc.	Electrical & Computer Engineering | University of Thessaly (_2022 - 2023_)
-- B.Sc. Electrical & Computer Engineering | University of Thessaly (_2017 - 2023_)
+<div style="display: flex; align-items: center;">
+  <div>
+    - Ph.D. Student, Electrical and Computer Engineering | National Tecnical University of Athens (_2023 - present_)
+    - M.Sc.	Electrical & Computer Engineering | University of Thessaly (_2022 - 2023_)
+    - B.Sc. Electrical & Computer Engineering | University of Thessaly (_2017 - 2023_)
+  </div>
+</div>
 
 ## Work Experience
 **Data Scientist @ Decision Support Systems Lab EPU (_April 2023 - Present_)**
