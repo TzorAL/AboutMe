@@ -35,9 +35,7 @@
    <div class="wrapper">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-         {% if site.logo %}
          <img src="{{site.logo | relative_url}}" alt="Logo" />
-         {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
          <div class="icon-container">
             <!-- Github -->
@@ -55,12 +53,12 @@
 							<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/mail.svg" alt="Mail" style="height: 30px; width: 30px;">
 							<span>tzortzisalex99@gmail.com</span>
             </a>
-				    <!-- Phone -->
-<!-- 				    <a href="">
-	        		<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/orcid.svg" alt="Phone">
+      	    <!-- Phone -->
+      	    <a href="">
+		          <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="Phone">
     					<span>+306980491324</span>
-						</a> -->
-				 </div>
+	          </a>
+	      </div>
       </header>
       <section>
          {{ content }}
