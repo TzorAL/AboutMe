@@ -4,9 +4,7 @@
  - Languages: C/C++, Java, Python, SQL, Bash
  - Tools: Docker, Kubernetes, Git/Github
 
-## Education
-<div align="center" style="display: flex; flex-direction: column; justify-content: center; height: 100px;">
- 
+## Education 
 - Ph.D. Student, Electrical and Computer Engineering | National Tecnical University of Athens (_2023 - present_)
 - M.Sc.	Electrical & Computer Engineering | University of Thessaly (_2022 - 2023_)
 - B.Sc. Electrical & Computer Engineering | University of Thessaly (_2017 - 2023_)
