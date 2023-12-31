@@ -6,6 +6,7 @@
 
 ## Education
 <div align="center"> #center-align multiline bullet text
+ 
 - Ph.D. Student, Electrical and Computer Engineering | National Tecnical University of Athens (_2023 - present_)
 - M.Sc.	Electrical & Computer Engineering | University of Thessaly (_2022 - 2023_)
 - B.Sc. Electrical & Computer Engineering | University of Thessaly (_2017 - 2023_)
