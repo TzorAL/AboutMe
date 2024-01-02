@@ -30,7 +30,6 @@
             margin-right: 10px;
         }
    </style>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
    <div class="wrapper">
@@ -58,9 +57,6 @@
       	    <a href="">
 	  	<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="Phone">
 		<span>+306980491324</span>
-	    </a>
-	    <a href="#" id="downloadLink">
-                 <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="CV">
 	    </a>	
 	 </div>
       </header>
@@ -75,19 +71,5 @@
       </footer>
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-   <script>
-      // Add a click event listener to the button
-      document.getElementById('downloadLink').addEventListener('click', function () {
-	    // Use html2pdf to convert the page to PDF and trigger download
-            event.preventDefault(); // Prevent the default link behavior
-
-            // Use html2pdf to convert the page to PDF with custom options
-            html2pdf(document.body, {
-               margin: 10, // Set margin to control spacing around the content
-               filename: 'cv.pdf', // Set a custom filename
-               jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // Adjust page size and orientation
-            });		 
-      });
-   </script>
 </body>
 </html>
