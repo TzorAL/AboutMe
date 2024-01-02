@@ -2,7 +2,7 @@
 
 #### Technical Skills
  - Languages: C/C++, Java, Python, SQL, Bash
- - Tools: Docker, Kubernetes, Git/Github
+ - Tools: Docker, Kubernetes, Git/Github, LaTeX
 
 ## Education 
 - Ph.D. Student, Electrical and Computer Engineering | National Tecnical University of Athens (_2023 - present_) 
