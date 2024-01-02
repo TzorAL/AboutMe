@@ -59,16 +59,9 @@
 	  	<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="Phone">
 		<span>+306980491324</span>
 	    </a>
-	    <a href="#" id="downloadLink">
+	    <a href="">
                  <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="CV">
 	    </a>	
-	    <script>
-	        // Add a click event listener to the button
-	        document.getElementById('downloadLink').addEventListener('click', function () {
-		    // Use html2pdf to convert the page to PDF and trigger download
-		    html2pdf(document.body);
-	        });
-	     </script>
 	 </div>
       </header>
       <section>
@@ -82,5 +75,12 @@
       </footer>
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+   <script>
+	// Add a click event listener to the button
+	document.getElementById('downloadLink').addEventListener('click', function () {
+	    // Use html2pdf to convert the page to PDF and trigger download
+	    html2pdf(document.body);
+	});
+   </script>
 </body>
 </html>
