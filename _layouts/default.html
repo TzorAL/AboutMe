@@ -59,7 +59,7 @@
 	  	<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="Phone">
 		<span>+306980491324</span>
 	    </a>
-	    <a href="">
+	    <a href="#" id="downloadLink">
                  <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="CV">
 	    </a>	
 	 </div>
@@ -76,18 +76,18 @@
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
    <script>
-	// Add a click event listener to the button
+      // Add a click event listener to the button
       document.getElementById('downloadLink').addEventListener('click', function () {
 	    // Use html2pdf to convert the page to PDF and trigger download
-        event.preventDefault(); // Prevent the default link behavior
+            event.preventDefault(); // Prevent the default link behavior
 
-        // Use html2pdf to convert the page to PDF with custom options
-        html2pdf(document.body, {
-            margin: 10, // Set margin to control spacing around the content
-            filename: 'cv.pdf', // Set a custom filename
-            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // Adjust page size and orientation
-        });		
-	  });
+            // Use html2pdf to convert the page to PDF with custom options
+            html2pdf(document.body, {
+               margin: 10, // Set margin to control spacing around the content
+               filename: 'cv.pdf', // Set a custom filename
+               jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // Adjust page size and orientation
+            });		 
+      });
    </script>
 </body>
 </html>
