@@ -77,10 +77,17 @@
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
    <script>
 	// Add a click event listener to the button
-	document.getElementById('downloadLink').addEventListener('click', function () {
+      document.getElementById('downloadLink').addEventListener('click', function () {
 	    // Use html2pdf to convert the page to PDF and trigger download
-	    html2pdf(document.body);
-	});
+        event.preventDefault(); // Prevent the default link behavior
+
+        // Use html2pdf to convert the page to PDF with custom options
+        html2pdf(document.body, {
+            margin: 10, // Set margin to control spacing around the content
+            filename: 'cv.pdf', // Set a custom filename
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // Adjust page size and orientation
+        });		
+	  });
    </script>
 </body>
 </html>
