@@ -30,6 +30,7 @@
             margin-right: 10px;
         }
    </style>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
    <div class="wrapper">
@@ -58,6 +59,16 @@
 	  	<img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="Phone">
 		<span>+306980491324</span>
 	    </a>
+	    <a href="#" id="downloadLink">
+                 <img src="https://raw.githubusercontent.com/TzorAL/AboutMe/master/images/media/phone.svg" alt="CV">
+	    </a>	
+	    <script>
+	        // Add a click event listener to the button
+	        document.getElementById('downloadLink').addEventListener('click', function () {
+		    // Use html2pdf to convert the page to PDF and trigger download
+		    html2pdf(document.body);
+	        });
+	     </script>
 	 </div>
       </header>
       <section>
