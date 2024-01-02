@@ -11,7 +11,9 @@
 ## Work Experience
 **Data Scientist @ Decision Support Systems Lab EPU (_April 2023 - Present_)**
 - Assistance in academic obligations regarding undergraduate courses 
-
+- Contribution in European projects part of the Horizon programme
+- Research and development of technologies and services, regarding energy efficiency using machine learning techniques
+  
 ## Publications
 1. Tzortzis AM, Pelekis S, Spiliotis E, Karakolis E, Mouzakitis S, Psarras J, Askounis D. Transfer Learning for Day-Ahead Load Forecasting: A Case Study on European National Electricity Demand Time Series. Mathematics. 2024; 12(1):19. https://doi.org/10.3390/math12010019
 
