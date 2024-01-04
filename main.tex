@@ -1,0 +1,146 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% Add numbering in front of citations
+\usepackage[numbers]{natbib}
+
+\usepackage{import}
+
+% Command to remove bullets from between socials
+\renewcommand*{\makeheaddetailssymbol}{~~~}
+
+% personal data
+\name{Alexandros M.}{Tzortzis}
+% \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Iakinthou 1, Gerakas, Athens, Greece, 15344}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+306944209663}                   % optional, remove / comment the line if not wanted
+\email{tzortzisalex99@gmail.com} % optional, remove / comment the line if not wanted
+\homepage{https://tzoral.github.io/AboutMe/} % optional, remove / comment the line if not wanted
+\social[github]{tzoral} % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{AI researcher primarily focusing on the utilisation of machine learning and deep learning methodologies for power grid time series forecasting, with a strong emphasis on EU-funded research and innovation projects.}
+
+\section{Previous Employment}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{April 2023 - Present}{Junior Developer}{National Technical University of Athens (NTUA)}{Athens, GR}{}{\vspace{3pt} 
+Contribution in European projects that are part of the Horizon programme Research. My main occupation revolved around the development of technologies and services, regarding energy efficiency using machine learning algorithms and techniques. Additionally, I offered assistance in miscellaneous academic obligations regarding undergraduate courses.}}
+
+\vspace{2pt}
+
+\end{itemize}
+
+\section{Education}
+\vspace{2pt}
+
+\begin{itemize}
+
+\item{\cventry{2017 -- 2023}{MSci in Electrical and Computer Engineering}{University of Thessaly}{Volos, GR}{\textit{GPA 3.42/4.0}}{}}
+
+\item{\cventry{2023 -- Present}{Ph.D in Electrical and Computer Engineering}{National Technical University of Athens}{Athens, GR}{}{}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\section{Notable Projects}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\textbf{AI4EF @ Enershare}\textit{'A solid methodological framework for assessing renovation actions in residential buildings.'}
+
+\vspace{3pt}
+
+\small{
+This service consists of two ML models for implementing two different tasks related to the domain of building retrofitting and energy autonomy in the residential scale. The first model is tailored for assessing specific actions in building level, while the second model aims at assessing the potential of installing rooftop solar panels in residential buildings. A backend is implemented with a combination of fastAPI/postgREST, employing RESTful APIs to establish communication between models and frontend/database respectively.}}
+
+\end{itemize}
+
+\section{Technical skills}
+
+\begin{itemize}
+
+\item \textbf{Programming Languages:} C, C++, Python, Java, Bash, SQL, TeX, Verilog.
+
+\vspace{2pt}
+
+\item \textbf{Industry Software Skills:} Docker, Kubernetes, Git/Github.
+
+\vspace{2pt}
+
+\item \textbf{Languages:} Greek (native), English (C2).
+
+\vspace{2pt}
+
+\item \textbf{Interests:} Cinema/Literature, Gaming, Hiking, Martial Arts, Basketball, Pop Culture.
+
+% \item \textbf{General Business Skills:} Good presentation skills, Works well in a team.
+
+\end{itemize}
+
+% \section{References}
+
+% \vspace{6pt}
+ 
+% \begin{itemize}
+
+% \item{Up to 4 references available on request}
+
+% \end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
